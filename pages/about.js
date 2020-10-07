@@ -1,9 +1,9 @@
+import React from 'react'
+
 // Functional Component
 const About = () => {
     const message = 'Hello Nextjs';
-    return (
-        <h1>{message}</h1>
-    )
+    return React.createElement('div', null, 'This is a test')
 }
 
 export default About
